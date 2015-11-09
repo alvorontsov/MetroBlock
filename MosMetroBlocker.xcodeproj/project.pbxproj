@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116389031BF0822200D93833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116389021BF0822200D93833 /* main.m */; };
+		116389061BF0822200D93833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116389051BF0822200D93833 /* AppDelegate.m */; };
+		116389091BF0822200D93833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116389081BF0822200D93833 /* ViewController.m */; };
+		1163890C1BF0822200D93833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1163890A1BF0822200D93833 /* Main.storyboard */; };
+		1163890F1BF0822200D93833 /* MosMetroBlocker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1163890D1BF0822200D93833 /* MosMetroBlocker.xcdatamodeld */; };
+		116389111BF0822200D93833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116389101BF0822200D93833 /* Assets.xcassets */; };
+		116389141BF0822200D93833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116389121BF0822200D93833 /* LaunchScreen.storyboard */; };
+		1163891F1BF0822200D93833 /* MosMetroBlockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163891E1BF0822200D93833 /* MosMetroBlockerTests.m */; };
+		1163892A1BF0822200D93833 /* MosMetroBlockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116389291BF0822200D93833 /* MosMetroBlockerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1163891B1BF0822200D93833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116388F61BF0822200D93833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116388FD1BF0822200D93833;
+			remoteInfo = MosMetroBlocker;
+		};
+		116389261BF0822200D93833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116388F61BF0822200D93833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116388FD1BF0822200D93833;
+			remoteInfo = MosMetroBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116388FE1BF0822200D93833 /* MosMetroBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosMetroBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116389021BF0822200D93833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		116389041BF0822200D93833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		116389051BF0822200D93833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		116389071BF0822200D93833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		116389081BF0822200D93833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1163890B1BF0822200D93833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1163890E1BF0822200D93833 /* MosMetroBlocker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MosMetroBlocker.xcdatamodel; sourceTree = "<group>"; };
+		116389101BF0822200D93833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116389131BF0822200D93833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116389151BF0822200D93833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1163891A1BF0822200D93833 /* MosMetroBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosMetroBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1163891E1BF0822200D93833 /* MosMetroBlockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosMetroBlockerTests.m; sourceTree = "<group>"; };
+		116389201BF0822200D93833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116389251BF0822200D93833 /* MosMetroBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosMetroBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116389291BF0822200D93833 /* MosMetroBlockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosMetroBlockerUITests.m; sourceTree = "<group>"; };
+		1163892B1BF0822200D93833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116388FB1BF0822200D93833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116389171BF0822200D93833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116389221BF0822200D93833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116388F51BF0822200D93833 = {
+			isa = PBXGroup;
+			children = (
+				116389001BF0822200D93833 /* MosMetroBlocker */,
+				1163891D1BF0822200D93833 /* MosMetroBlockerTests */,
+				116389281BF0822200D93833 /* MosMetroBlockerUITests */,
+				116388FF1BF0822200D93833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116388FF1BF0822200D93833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116388FE1BF0822200D93833 /* MosMetroBlocker.app */,
+				1163891A1BF0822200D93833 /* MosMetroBlockerTests.xctest */,
+				116389251BF0822200D93833 /* MosMetroBlockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116389001BF0822200D93833 /* MosMetroBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				116389041BF0822200D93833 /* AppDelegate.h */,
+				116389051BF0822200D93833 /* AppDelegate.m */,
+				116389071BF0822200D93833 /* ViewController.h */,
+				116389081BF0822200D93833 /* ViewController.m */,
+				1163890A1BF0822200D93833 /* Main.storyboard */,
+				116389101BF0822200D93833 /* Assets.xcassets */,
+				116389121BF0822200D93833 /* LaunchScreen.storyboard */,
+				116389151BF0822200D93833 /* Info.plist */,
+				1163890D1BF0822200D93833 /* MosMetroBlocker.xcdatamodeld */,
+				116389011BF0822200D93833 /* Supporting Files */,
+			);
+			path = MosMetroBlocker;
+			sourceTree = "<group>";
+		};
+		116389011BF0822200D93833 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116389021BF0822200D93833 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1163891D1BF0822200D93833 /* MosMetroBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1163891E1BF0822200D93833 /* MosMetroBlockerTests.m */,
+				116389201BF0822200D93833 /* Info.plist */,
+			);
+			path = MosMetroBlockerTests;
+			sourceTree = "<group>";
+		};
+		116389281BF0822200D93833 /* MosMetroBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				116389291BF0822200D93833 /* MosMetroBlockerUITests.m */,
+				1163892B1BF0822200D93833 /* Info.plist */,
+			);
+			path = MosMetroBlockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116388FD1BF0822200D93833 /* MosMetroBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1163892E1BF0822200D93833 /* Build configuration list for PBXNativeTarget "MosMetroBlocker" */;
+			buildPhases = (
+				116388FA1BF0822200D93833 /* Sources */,
+				116388FB1BF0822200D93833 /* Frameworks */,
+				116388FC1BF0822200D93833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosMetroBlocker;
+			productName = MosMetroBlocker;
+			productReference = 116388FE1BF0822200D93833 /* MosMetroBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116389191BF0822200D93833 /* MosMetroBlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116389311BF0822200D93833 /* Build configuration list for PBXNativeTarget "MosMetroBlockerTests" */;
+			buildPhases = (
+				116389161BF0822200D93833 /* Sources */,
+				116389171BF0822200D93833 /* Frameworks */,
+				116389181BF0822200D93833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1163891C1BF0822200D93833 /* PBXTargetDependency */,
+			);
+			name = MosMetroBlockerTests;
+			productName = MosMetroBlockerTests;
+			productReference = 1163891A1BF0822200D93833 /* MosMetroBlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		116389241BF0822200D93833 /* MosMetroBlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116389341BF0822200D93833 /* Build configuration list for PBXNativeTarget "MosMetroBlockerUITests" */;
+			buildPhases = (
+				116389211BF0822200D93833 /* Sources */,
+				116389221BF0822200D93833 /* Frameworks */,
+				116389231BF0822200D93833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116389271BF0822200D93833 /* PBXTargetDependency */,
+			);
+			name = MosMetroBlockerUITests;
+			productName = MosMetroBlockerUITests;
+			productReference = 116389251BF0822200D93833 /* MosMetroBlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116388F61BF0822200D93833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alexander Vorontsov";
+				TargetAttributes = {
+					116388FD1BF0822200D93833 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					116389191BF0822200D93833 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 116388FD1BF0822200D93833;
+					};
+					116389241BF0822200D93833 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 116388FD1BF0822200D93833;
+					};
+				};
+			};
+			buildConfigurationList = 116388F91BF0822200D93833 /* Build configuration list for PBXProject "MosMetroBlocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116388F51BF0822200D93833;
+			productRefGroup = 116388FF1BF0822200D93833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116388FD1BF0822200D93833 /* MosMetroBlocker */,
+				116389191BF0822200D93833 /* MosMetroBlockerTests */,
+				116389241BF0822200D93833 /* MosMetroBlockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116388FC1BF0822200D93833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116389141BF0822200D93833 /* LaunchScreen.storyboard in Resources */,
+				116389111BF0822200D93833 /* Assets.xcassets in Resources */,
+				1163890C1BF0822200D93833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116389181BF0822200D93833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116389231BF0822200D93833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116388FA1BF0822200D93833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163890F1BF0822200D93833 /* MosMetroBlocker.xcdatamodeld in Sources */,
+				116389091BF0822200D93833 /* ViewController.m in Sources */,
+				116389061BF0822200D93833 /* AppDelegate.m in Sources */,
+				116389031BF0822200D93833 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116389161BF0822200D93833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163891F1BF0822200D93833 /* MosMetroBlockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116389211BF0822200D93833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163892A1BF0822200D93833 /* MosMetroBlockerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1163891C1BF0822200D93833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116388FD1BF0822200D93833 /* MosMetroBlocker */;
+			targetProxy = 1163891B1BF0822200D93833 /* PBXContainerItemProxy */;
+		};
+		116389271BF0822200D93833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116388FD1BF0822200D93833 /* MosMetroBlocker */;
+			targetProxy = 116389261BF0822200D93833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1163890A1BF0822200D93833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1163890B1BF0822200D93833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		116389121BF0822200D93833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116389131BF0822200D93833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1163892C1BF0822200D93833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1163892D1BF0822200D93833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1163892F1BF0822200D93833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MosMetroBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.MosMetroBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		116389301BF0822200D93833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MosMetroBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.MosMetroBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		116389321BF0822200D93833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MosMetroBlockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.MosMetroBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosMetroBlocker.app/MosMetroBlocker";
+			};
+			name = Debug;
+		};
+		116389331BF0822200D93833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MosMetroBlockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.MosMetroBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosMetroBlocker.app/MosMetroBlocker";
+			};
+			name = Release;
+		};
+		116389351BF0822200D93833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MosMetroBlockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.MosMetroBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosMetroBlocker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		116389361BF0822200D93833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MosMetroBlockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.MosMetroBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosMetroBlocker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116388F91BF0822200D93833 /* Build configuration list for PBXProject "MosMetroBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1163892C1BF0822200D93833 /* Debug */,
+				1163892D1BF0822200D93833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1163892E1BF0822200D93833 /* Build configuration list for PBXNativeTarget "MosMetroBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1163892F1BF0822200D93833 /* Debug */,
+				116389301BF0822200D93833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		116389311BF0822200D93833 /* Build configuration list for PBXNativeTarget "MosMetroBlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116389321BF0822200D93833 /* Debug */,
+				116389331BF0822200D93833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		116389341BF0822200D93833 /* Build configuration list for PBXNativeTarget "MosMetroBlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116389351BF0822200D93833 /* Debug */,
+				116389361BF0822200D93833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1163890D1BF0822200D93833 /* MosMetroBlocker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1163890E1BF0822200D93833 /* MosMetroBlocker.xcdatamodel */,
+			);
+			currentVersion = 1163890E1BF0822200D93833 /* MosMetroBlocker.xcdatamodel */;
+			path = MosMetroBlocker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 116388F61BF0822200D93833 /* Project object */;
+}
