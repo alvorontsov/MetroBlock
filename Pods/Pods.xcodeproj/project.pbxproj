@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F054537BA0C41FDBF55A9A736247C4B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A66F84A1541960FBFA0F0850EF3158C /* Pods-dummy.m */; };
+		19FE20F6FC9CFB2C1CE25EC41131EBFC /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 30751A004E75CB7AF25CBDEF31BA0903 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8613BE5630BA82A2E33F483B1F1EF4 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EC99833F70D8C27A0B0C28ED8B6DB3 /* FBShimmeringLayer.m */; };
+		40CEB8392DF3C199C81CD18002A507F3 /* Shimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F944693AEC702C45580053F9265593 /* Shimmer-dummy.m */; };
+		62AA3A2FD56DD4085ADBB93C03450507 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F6B1E20AE7CEDE2559FA2FEA88713 /* FBShimmeringView.m */; };
+		74F170B5B3C304905E89688B84B6B843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8BC513124E604F4CF8ED228C61BFC759 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		95C297507D0C25C0F140BD72E21DE73C /* Pods-MosMetroBlockerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D611B0BAB38624BBD79BF2B363B7922 /* Pods-MosMetroBlockerUITests-dummy.m */; };
+		A02D12691215FFFAF341506D57808165 /* Pods-MosMetroBlocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21B0BF5910B00F908E469D00011CB8 /* Pods-MosMetroBlocker-dummy.m */; };
+		A1507D583E99EC27B38413A1670C48E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A1FA4517A16D33111B137C18094F0AAB /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 575F52027BFA9F62AAE7619EA89089A0 /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6127FD0E55557D1204CA4CEB07719CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D8BE303718745B6B36F9163A573A9D20 /* Pods-MosMetroBlockerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ED48E2B5D0D1B2D61EE6846AA1B22 /* Pods-MosMetroBlockerTests-dummy.m */; };
+		F447D094BFAA77E566D629F1E400105E /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7E86DAC2F03B16A6DFD11E1F359CC8 /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A326CC577603492A7FB0C453C03797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9BEA2EC07530CEC4D90DBE3EBE2ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAD678F8DB14760EB5AFB455FC7CAA;
+			remoteInfo = Shimmer;
+		};
+		1920A1B84120D6042AF900BBC1201D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAD678F8DB14760EB5AFB455FC7CAA;
+			remoteInfo = Shimmer;
+		};
+		47D69AAF428D7E9D83145EBCA0028EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAD678F8DB14760EB5AFB455FC7CAA;
+			remoteInfo = Shimmer;
+		};
+		9A6BD81E89575367B7276A2F5BE63FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAD678F8DB14760EB5AFB455FC7CAA;
+			remoteInfo = Shimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F944693AEC702C45580053F9265593 /* Shimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Shimmer-dummy.m"; sourceTree = "<group>"; };
+		0A66F84A1541960FBFA0F0850EF3158C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		0F2A6361730DB8CCD4AA3E4F83374B7F /* libPods-MosMetroBlockerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosMetroBlockerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3DC01341D0831A5CFA878741B841CA /* Shimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shimmer.xcconfig; sourceTree = "<group>"; };
+		1B8D5AEA1F39AD419BF28D113C7A5B66 /* Pods-MosMetroBlockerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MosMetroBlockerUITests-resources.sh"; sourceTree = "<group>"; };
+		238D27CD429B9A23C2A2C01DDE3DA636 /* libPods-MosMetroBlocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosMetroBlocker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7E86DAC2F03B16A6DFD11E1F359CC8 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = "<group>"; };
+		2F21B0BF5910B00F908E469D00011CB8 /* Pods-MosMetroBlocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MosMetroBlocker-dummy.m"; sourceTree = "<group>"; };
+		30751A004E75CB7AF25CBDEF31BA0903 /* FBShimmering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = "<group>"; };
+		33980E9521042C03CFDADA7683C22966 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		37845639350465088221E37DA4E3984D /* Pods-MosMetroBlockerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MosMetroBlockerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3797E8EE6CE262FC8BDC4F4DE28DD42F /* Pods-MosMetroBlocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MosMetroBlocker.release.xcconfig"; sourceTree = "<group>"; };
+		3C7ED48E2B5D0D1B2D61EE6846AA1B22 /* Pods-MosMetroBlockerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MosMetroBlockerTests-dummy.m"; sourceTree = "<group>"; };
+		3D611B0BAB38624BBD79BF2B363B7922 /* Pods-MosMetroBlockerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MosMetroBlockerUITests-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44C0A257E5225417A13EC1D9534ED6EF /* libPods-MosMetroBlockerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosMetroBlockerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEA05580DAAA14C908BC49E4F16E2E /* Pods-MosMetroBlockerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MosMetroBlockerTests-resources.sh"; sourceTree = "<group>"; };
+		575F52027BFA9F62AAE7619EA89089A0 /* FBShimmeringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = "<group>"; };
+		5C64195AE9246CC7FFAC36F609381680 /* Pods-MosMetroBlockerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MosMetroBlockerTests-frameworks.sh"; sourceTree = "<group>"; };
+		5D2F6B1E20AE7CEDE2559FA2FEA88713 /* FBShimmeringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = "<group>"; };
+		643E0B854CC60737B58BEECA412353F0 /* Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-prefix.pch"; sourceTree = "<group>"; };
+		73BC0858A1BE160928E727FA45E23B81 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		74EC99833F70D8C27A0B0C28ED8B6DB3 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = "<group>"; };
+		7B526D4E5E257D7E0A650CB484B18345 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		7B65A10B47C7033092416A048970D161 /* Pods-MosMetroBlocker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MosMetroBlocker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CB360A302DF93C0CBDB63C982CED2A9 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		96988DF29A94EF466EC63292F5A178BA /* Pods-MosMetroBlockerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MosMetroBlockerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AF04846240C5D4C7ACEFBE568F8FED4 /* Pods-MosMetroBlockerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MosMetroBlockerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3C715B7789590CD51012EA138E7AFF0 /* Pods-MosMetroBlocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MosMetroBlocker.debug.xcconfig"; sourceTree = "<group>"; };
+		A43D284A5DD4C1EDCFC59234E773F26A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C36480A89C43C785BC832CD8A3558061 /* Pods-MosMetroBlocker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MosMetroBlocker-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5719E5A7F4211856C68565F32348159 /* Pods-MosMetroBlockerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MosMetroBlockerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAD825A7C844426ACD6F04568504EDAE /* Pods-MosMetroBlockerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MosMetroBlockerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7055F77E9651D67B579E1E000734E9E /* Pods-MosMetroBlockerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MosMetroBlockerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D8D9A2CBBD075BA59C373E2CC561F3FB /* Pods-MosMetroBlocker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MosMetroBlocker-frameworks.sh"; sourceTree = "<group>"; };
+		DB8F09FABC1C7DE045078760084E32E2 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBDB1F4EDD520C4DD76814FC9BB13E9F /* Pods-MosMetroBlockerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MosMetroBlockerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCADA0DA2F4DBEC9A68FC63C916E9CAE /* libShimmer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShimmer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDF5A05FE92D27F3D5BA88FCD0B6A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B85B1C6F75C15701EB4086E5E7B817 /* Pods-MosMetroBlockerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MosMetroBlockerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4ACE478EB15376113CA4CE076FC4C22 /* Pods-MosMetroBlocker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MosMetroBlocker-resources.sh"; sourceTree = "<group>"; };
+		F31C679132FEE6F292729F41D83A4810 /* Pods-MosMetroBlockerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MosMetroBlockerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BE614345F578BAC3701BFB9B4B3AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F170B5B3C304905E89688B84B6B843 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A7353B9AD4804F74A503315BDD45FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1507D583E99EC27B38413A1670C48E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B90D507C5555D129B6210C06D0EFB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6127FD0E55557D1204CA4CEB07719CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D44B9C5807DE22189695E17B7314B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC513124E604F4CF8ED228C61BFC759 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CC5C60989E8CD4B83B3151B2C108C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A326CC577603492A7FB0C453C03797 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B04C0EF1DC9277EDF5C435045DD942 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				30751A004E75CB7AF25CBDEF31BA0903 /* FBShimmering.h */,
+				2D7E86DAC2F03B16A6DFD11E1F359CC8 /* FBShimmeringLayer.h */,
+				74EC99833F70D8C27A0B0C28ED8B6DB3 /* FBShimmeringLayer.m */,
+				575F52027BFA9F62AAE7619EA89089A0 /* FBShimmeringView.h */,
+				5D2F6B1E20AE7CEDE2559FA2FEA88713 /* FBShimmeringView.m */,
+				F581CC4606B62A45E6DFD282CFC9BE58 /* Support Files */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		0CAA8E9C6CEFCC09598034636E612936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCDF5A05FE92D27F3D5BA88FCD0B6A8 /* libPods.a */,
+				238D27CD429B9A23C2A2C01DDE3DA636 /* libPods-MosMetroBlocker.a */,
+				44C0A257E5225417A13EC1D9534ED6EF /* libPods-MosMetroBlockerTests.a */,
+				0F2A6361730DB8CCD4AA3E4F83374B7F /* libPods-MosMetroBlockerUITests.a */,
+				DCADA0DA2F4DBEC9A68FC63C916E9CAE /* libShimmer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D41D8E46DE0ACDB67616D7525E5BB25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F09FABC1C7DE045078760084E32E2 /* Pods-acknowledgements.markdown */,
+				73BC0858A1BE160928E727FA45E23B81 /* Pods-acknowledgements.plist */,
+				0A66F84A1541960FBFA0F0850EF3158C /* Pods-dummy.m */,
+				7B526D4E5E257D7E0A650CB484B18345 /* Pods-frameworks.sh */,
+				7CB360A302DF93C0CBDB63C982CED2A9 /* Pods-resources.sh */,
+				A43D284A5DD4C1EDCFC59234E773F26A /* Pods.debug.xcconfig */,
+				33980E9521042C03CFDADA7683C22966 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		657681037512231497E4164A0165D877 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D41D8E46DE0ACDB67616D7525E5BB25 /* Pods */,
+				8A94076F0BC4551A4B6DB8503275F3F6 /* Pods-MosMetroBlocker */,
+				65B164EF07CFD0798E07AB1B6D895C01 /* Pods-MosMetroBlockerTests */,
+				F32A076BCDCF91124AF7437D7D968AEB /* Pods-MosMetroBlockerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65B164EF07CFD0798E07AB1B6D895C01 /* Pods-MosMetroBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				96988DF29A94EF466EC63292F5A178BA /* Pods-MosMetroBlockerTests-acknowledgements.markdown */,
+				C5719E5A7F4211856C68565F32348159 /* Pods-MosMetroBlockerTests-acknowledgements.plist */,
+				3C7ED48E2B5D0D1B2D61EE6846AA1B22 /* Pods-MosMetroBlockerTests-dummy.m */,
+				5C64195AE9246CC7FFAC36F609381680 /* Pods-MosMetroBlockerTests-frameworks.sh */,
+				4CAEA05580DAAA14C908BC49E4F16E2E /* Pods-MosMetroBlockerTests-resources.sh */,
+				CAD825A7C844426ACD6F04568504EDAE /* Pods-MosMetroBlockerTests.debug.xcconfig */,
+				E0B85B1C6F75C15701EB4086E5E7B817 /* Pods-MosMetroBlockerTests.release.xcconfig */,
+			);
+			name = "Pods-MosMetroBlockerTests";
+			path = "Target Support Files/Pods-MosMetroBlockerTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				87E2BF656837D3AAB72966B786A3A88D /* Pods */,
+				0CAA8E9C6CEFCC09598034636E612936 /* Products */,
+				657681037512231497E4164A0165D877 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87E2BF656837D3AAB72966B786A3A88D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05B04C0EF1DC9277EDF5C435045DD942 /* Shimmer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A94076F0BC4551A4B6DB8503275F3F6 /* Pods-MosMetroBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				7B65A10B47C7033092416A048970D161 /* Pods-MosMetroBlocker-acknowledgements.markdown */,
+				C36480A89C43C785BC832CD8A3558061 /* Pods-MosMetroBlocker-acknowledgements.plist */,
+				2F21B0BF5910B00F908E469D00011CB8 /* Pods-MosMetroBlocker-dummy.m */,
+				D8D9A2CBBD075BA59C373E2CC561F3FB /* Pods-MosMetroBlocker-frameworks.sh */,
+				E4ACE478EB15376113CA4CE076FC4C22 /* Pods-MosMetroBlocker-resources.sh */,
+				A3C715B7789590CD51012EA138E7AFF0 /* Pods-MosMetroBlocker.debug.xcconfig */,
+				3797E8EE6CE262FC8BDC4F4DE28DD42F /* Pods-MosMetroBlocker.release.xcconfig */,
+			);
+			name = "Pods-MosMetroBlocker";
+			path = "Target Support Files/Pods-MosMetroBlocker";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F32A076BCDCF91124AF7437D7D968AEB /* Pods-MosMetroBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF04846240C5D4C7ACEFBE568F8FED4 /* Pods-MosMetroBlockerUITests-acknowledgements.markdown */,
+				F31C679132FEE6F292729F41D83A4810 /* Pods-MosMetroBlockerUITests-acknowledgements.plist */,
+				3D611B0BAB38624BBD79BF2B363B7922 /* Pods-MosMetroBlockerUITests-dummy.m */,
+				D7055F77E9651D67B579E1E000734E9E /* Pods-MosMetroBlockerUITests-frameworks.sh */,
+				1B8D5AEA1F39AD419BF28D113C7A5B66 /* Pods-MosMetroBlockerUITests-resources.sh */,
+				DBDB1F4EDD520C4DD76814FC9BB13E9F /* Pods-MosMetroBlockerUITests.debug.xcconfig */,
+				37845639350465088221E37DA4E3984D /* Pods-MosMetroBlockerUITests.release.xcconfig */,
+			);
+			name = "Pods-MosMetroBlockerUITests";
+			path = "Target Support Files/Pods-MosMetroBlockerUITests";
+			sourceTree = "<group>";
+		};
+		F581CC4606B62A45E6DFD282CFC9BE58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DC01341D0831A5CFA878741B841CA /* Shimmer.xcconfig */,
+				05F944693AEC702C45580053F9265593 /* Shimmer-dummy.m */,
+				643E0B854CC60737B58BEECA412353F0 /* Shimmer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Shimmer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66BC2A8FC6B9814CB82B80D0400B2F80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FE20F6FC9CFB2C1CE25EC41131EBFC /* FBShimmering.h in Headers */,
+				F447D094BFAA77E566D629F1E400105E /* FBShimmeringLayer.h in Headers */,
+				A1FA4517A16D33111B137C18094F0AAB /* FBShimmeringView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C25578CDE0DD491636DE78A615590BB /* Pods-MosMetroBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CE07A2571F0F83D04FCCABFCBED40F /* Build configuration list for PBXNativeTarget "Pods-MosMetroBlocker" */;
+			buildPhases = (
+				F7E7B3DA3D09E24651EEBEDB19FBC6B0 /* Sources */,
+				DD7CC5C60989E8CD4B83B3151B2C108C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72EEEAD18C6B8522CA4392B5C55FBD46 /* PBXTargetDependency */,
+			);
+			name = "Pods-MosMetroBlocker";
+			productName = "Pods-MosMetroBlocker";
+			productReference = 238D27CD429B9A23C2A2C01DDE3DA636 /* libPods-MosMetroBlocker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2D7E8C25571DF6A7DCD5134CFBE4480D /* Pods-MosMetroBlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F48AFF336A1D746B00C4C655588192 /* Build configuration list for PBXNativeTarget "Pods-MosMetroBlockerUITests" */;
+			buildPhases = (
+				1419C6D42DCDCAA417F6889DD4700707 /* Sources */,
+				57A7353B9AD4804F74A503315BDD45FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009DE39CFE93342C763BD6C477CCE0AE /* PBXTargetDependency */,
+			);
+			name = "Pods-MosMetroBlockerUITests";
+			productName = "Pods-MosMetroBlockerUITests";
+			productReference = 0F2A6361730DB8CCD4AA3E4F83374B7F /* libPods-MosMetroBlockerUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E3245AD9280FCD8A6CAD7BC5E58876D /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DB36143834124F96A83C3C77C24175 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				228A819D7CE997E6568E0F7FD97B4DC9 /* Sources */,
+				6B90D507C5555D129B6210C06D0EFB23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BCFAAF82644086475F118FD182688AD /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = DDCDF5A05FE92D27F3D5BA88FCD0B6A8 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C5FAD678F8DB14760EB5AFB455FC7CAA /* Shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58359F8562044CA047F14D57ED3F0D52 /* Build configuration list for PBXNativeTarget "Shimmer" */;
+			buildPhases = (
+				CC599B3BFCDE1E131464451253D3FE6C /* Sources */,
+				39BE614345F578BAC3701BFB9B4B3AFD /* Frameworks */,
+				66BC2A8FC6B9814CB82B80D0400B2F80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shimmer;
+			productName = Shimmer;
+			productReference = DCADA0DA2F4DBEC9A68FC63C916E9CAE /* libShimmer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C79E2530180D54C126E511A8C1C7E734 /* Pods-MosMetroBlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF282DFB9DAA94838297A8C46CC1F80E /* Build configuration list for PBXNativeTarget "Pods-MosMetroBlockerTests" */;
+			buildPhases = (
+				B6B085C517B8F2D1450632B22ABA12F7 /* Sources */,
+				77D44B9C5807DE22189695E17B7314B3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4536913E408E6C0F5B36D6C761F1BC /* PBXTargetDependency */,
+			);
+			name = "Pods-MosMetroBlockerTests";
+			productName = "Pods-MosMetroBlockerTests";
+			productReference = 44C0A257E5225417A13EC1D9534ED6EF /* libPods-MosMetroBlockerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0CAA8E9C6CEFCC09598034636E612936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3245AD9280FCD8A6CAD7BC5E58876D /* Pods */,
+				2C25578CDE0DD491636DE78A615590BB /* Pods-MosMetroBlocker */,
+				C79E2530180D54C126E511A8C1C7E734 /* Pods-MosMetroBlockerTests */,
+				2D7E8C25571DF6A7DCD5134CFBE4480D /* Pods-MosMetroBlockerUITests */,
+				C5FAD678F8DB14760EB5AFB455FC7CAA /* Shimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1419C6D42DCDCAA417F6889DD4700707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C297507D0C25C0F140BD72E21DE73C /* Pods-MosMetroBlockerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228A819D7CE997E6568E0F7FD97B4DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F054537BA0C41FDBF55A9A736247C4B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B085C517B8F2D1450632B22ABA12F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BE303718745B6B36F9163A573A9D20 /* Pods-MosMetroBlockerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC599B3BFCDE1E131464451253D3FE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8613BE5630BA82A2E33F483B1F1EF4 /* FBShimmeringLayer.m in Sources */,
+				62AA3A2FD56DD4085ADBB93C03450507 /* FBShimmeringView.m in Sources */,
+				40CEB8392DF3C199C81CD18002A507F3 /* Shimmer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E7B3DA3D09E24651EEBEDB19FBC6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02D12691215FFFAF341506D57808165 /* Pods-MosMetroBlocker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009DE39CFE93342C763BD6C477CCE0AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = C5FAD678F8DB14760EB5AFB455FC7CAA /* Shimmer */;
+			targetProxy = 0A9BEA2EC07530CEC4D90DBE3EBE2ED2 /* PBXContainerItemProxy */;
+		};
+		72EEEAD18C6B8522CA4392B5C55FBD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = C5FAD678F8DB14760EB5AFB455FC7CAA /* Shimmer */;
+			targetProxy = 1920A1B84120D6042AF900BBC1201D6B /* PBXContainerItemProxy */;
+		};
+		7BCFAAF82644086475F118FD182688AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = C5FAD678F8DB14760EB5AFB455FC7CAA /* Shimmer */;
+			targetProxy = 9A6BD81E89575367B7276A2F5BE63FD2 /* PBXContainerItemProxy */;
+		};
+		DC4536913E408E6C0F5B36D6C761F1BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = C5FAD678F8DB14760EB5AFB455FC7CAA /* Shimmer */;
+			targetProxy = 47D69AAF428D7E9D83145EBCA0028EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D7BC0AB37707A39B5594374AA3A0C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C715B7789590CD51012EA138E7AFF0 /* Pods-MosMetroBlocker.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58066290F1CADE664F4378D13C8B7D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37845639350465088221E37DA4E3984D /* Pods-MosMetroBlockerUITests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5D95160B06B6D3BF2B952CA13F1C175D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3DC01341D0831A5CFA878741B841CA /* Shimmer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		687DEFA13E7835A71049A29D5A5BE040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD825A7C844426ACD6F04568504EDAE /* Pods-MosMetroBlockerTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		82A8EC51DCBC98F01DEAAFB89816C35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3797E8EE6CE262FC8BDC4F4DE28DD42F /* Pods-MosMetroBlocker.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		846A6AF3D92DF2FF6D85FBEA344FD26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B85B1C6F75C15701EB4086E5E7B817 /* Pods-MosMetroBlockerTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9C5F45BE6D88487DB029193E175CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43D284A5DD4C1EDCFC59234E773F26A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CDA5F62F41C614A16725765E66552A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDB1F4EDD520C4DD76814FC9BB13E9F /* Pods-MosMetroBlockerUITests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8EE63AA0DC5645B2A22B9005E49CE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3DC01341D0831A5CFA878741B841CA /* Shimmer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F99571C06BCDF052A261509369CADA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33980E9521042C03CFDADA7683C22966 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F48AFF336A1D746B00C4C655588192 /* Build configuration list for PBXNativeTarget "Pods-MosMetroBlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA5F62F41C614A16725765E66552A7C /* Debug */,
+				58066290F1CADE664F4378D13C8B7D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CE07A2571F0F83D04FCCABFCBED40F /* Build configuration list for PBXNativeTarget "Pods-MosMetroBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7BC0AB37707A39B5594374AA3A0C0D /* Debug */,
+				82A8EC51DCBC98F01DEAAFB89816C35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58359F8562044CA047F14D57ED3F0D52 /* Build configuration list for PBXNativeTarget "Shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EE63AA0DC5645B2A22B9005E49CE5F /* Debug */,
+				5D95160B06B6D3BF2B952CA13F1C175D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DB36143834124F96A83C3C77C24175 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C5F45BE6D88487DB029193E175CCB0 /* Debug */,
+				F99571C06BCDF052A261509369CADA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF282DFB9DAA94838297A8C46CC1F80E /* Build configuration list for PBXNativeTarget "Pods-MosMetroBlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687DEFA13E7835A71049A29D5A5BE040 /* Debug */,
+				846A6AF3D92DF2FF6D85FBEA344FD26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

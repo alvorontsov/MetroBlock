@@ -1,25 +1,165 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qme-S7-msc">
+                                <rect key="frame" x="20" y="617" width="335" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Как это работает?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTips:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z96-ah-T7O"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7AI-dQ-cgg" customClass="FBShimmeringView">
+                                <rect key="frame" x="20" y="270" width="335" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Включите блокировщик в Настройки–&gt;Safari–&gt;Правила блокирования контента" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-GQ-VbH">
+                                        <rect key="frame" x="8" y="8" width="319" height="112"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7AI-dQ-cgg" secondAttribute="height" multiplier="335:128" id="5Bg-R3-bKa"/>
+                                    <constraint firstAttribute="trailing" secondItem="7T0-GQ-VbH" secondAttribute="trailing" constant="8" id="HHN-AE-icm"/>
+                                    <constraint firstAttribute="bottom" secondItem="7T0-GQ-VbH" secondAttribute="bottom" constant="8" id="kk6-se-HmC"/>
+                                    <constraint firstItem="7T0-GQ-VbH" firstAttribute="leading" secondItem="7AI-dQ-cgg" secondAttribute="leading" constant="8" id="nSH-CU-wwF"/>
+                                    <constraint firstItem="7T0-GQ-VbH" firstAttribute="top" secondItem="7AI-dQ-cgg" secondAttribute="top" constant="8" id="xyh-WJ-HLq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qme-S7-msc" secondAttribute="bottom" constant="20" id="A06-or-Dl5"/>
+                            <constraint firstItem="7AI-dQ-cgg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AHg-1n-rR8"/>
+                            <constraint firstItem="Qme-S7-msc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FdV-hV-GiM"/>
+                            <constraint firstItem="7AI-dQ-cgg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="To5-RY-nzt"/>
+                            <constraint firstItem="7AI-dQ-cgg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cU3-SC-0BY"/>
+                            <constraint firstItem="7AI-dQ-cgg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v0i-IW-Qg1"/>
+                            <constraint firstItem="Qme-S7-msc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wDa-Oo-TUS"/>
+                        </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="shimeeringView" destination="7AI-dQ-cgg" id="COm-3R-pKN"/>
+                        <outlet property="shimmeringLabel" destination="7T0-GQ-VbH" id="jLw-Ht-5as"/>
+                        <segue destination="MTx-1k-wrA" kind="popoverPresentation" identifier="showTips" popoverAnchorView="Qme-S7-msc" id="Ahk-1L-Idr">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                            <popoverPassthroughViews>
+                                <view reference="8bC-Xf-vdC"/>
+                            </popoverPassthroughViews>
+                        </segue>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-149.5" y="168.5"/>
+        </scene>
+        <!--Tips View Controller-->
+        <scene sceneID="N24-IA-Z9O">
+            <objects>
+                <viewController id="MTx-1k-wrA" customClass="TipsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="esH-az-XOU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zxt-Zb-ozR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rGq-V9-huB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca6-C5-S4k">
+                                <rect key="frame" x="20" y="615" width="335" height="33"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Обратная связь">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showEmail:" destination="MTx-1k-wrA" eventType="touchUpInside" id="70w-PI-5Zn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="При включении блокировщика в настройках рекламные баннеры и видео  автоматически блокируются и не отображаются в Safari. Enjoy!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kkW-sc-W8O">
+                                <rect key="frame" x="20" y="274" width="335" height="119"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kkW-sc-W8O" secondAttribute="height" multiplier="335:119" id="YFa-Ms-dO1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WB3-we-74A">
+                                <rect key="frame" x="20" y="577" width="335" height="33"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="MTx-1k-wrA" eventType="touchUpInside" id="3gE-FQ-LQ4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="kkW-sc-W8O" firstAttribute="trailing" secondItem="rGq-V9-huB" secondAttribute="trailingMargin" id="8Ze-wt-owv"/>
+                            <constraint firstItem="Ca6-C5-S4k" firstAttribute="leading" secondItem="rGq-V9-huB" secondAttribute="leadingMargin" id="9IG-Od-uj8"/>
+                            <constraint firstItem="kkW-sc-W8O" firstAttribute="leading" secondItem="rGq-V9-huB" secondAttribute="leadingMargin" id="Diz-X8-Htx"/>
+                            <constraint firstItem="WB3-we-74A" firstAttribute="trailing" secondItem="rGq-V9-huB" secondAttribute="trailingMargin" id="JgS-zq-iYs"/>
+                            <constraint firstItem="Ca6-C5-S4k" firstAttribute="top" secondItem="WB3-we-74A" secondAttribute="bottom" constant="8" id="Qhn-jJ-seT"/>
+                            <constraint firstItem="WB3-we-74A" firstAttribute="leading" secondItem="rGq-V9-huB" secondAttribute="leadingMargin" id="SQR-jf-OS9"/>
+                            <constraint firstItem="Zxt-Zb-ozR" firstAttribute="top" secondItem="Ca6-C5-S4k" secondAttribute="bottom" constant="20" id="SqR-0o-1GL"/>
+                            <constraint firstItem="kkW-sc-W8O" firstAttribute="centerX" secondItem="rGq-V9-huB" secondAttribute="centerX" id="o4L-sk-0na"/>
+                            <constraint firstItem="kkW-sc-W8O" firstAttribute="centerY" secondItem="rGq-V9-huB" secondAttribute="centerY" id="xjM-G8-p0Z"/>
+                            <constraint firstItem="Ca6-C5-S4k" firstAttribute="trailing" secondItem="rGq-V9-huB" secondAttribute="trailingMargin" id="ytm-Fs-l0h"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="toMain" popoverAnchorView="Ca6-C5-S4k" id="WTw-vl-iS1">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                            <popoverPassthroughViews>
+                                <view reference="rGq-V9-huB"/>
+                            </popoverPassthroughViews>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Qf-BJ-2qJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="342.5" y="425.5"/>
         </scene>
     </scenes>
 </document>

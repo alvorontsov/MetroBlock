@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Shimmer/FBShimmering.h>
+#import <Shimmer/FBShimmeringLayer.h>
+#import <Shimmer/FBShimmeringView.h>
 
 @interface ViewController : UIViewController
+
+@property (nonatomic,weak) IBOutlet FBShimmeringView *shimeeringView;
+@property (nonatomic,weak) IBOutlet UILabel *shimmeringLabel;
+
+-(IBAction)showTips:(id)sender;
 
 
 @end

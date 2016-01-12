@@ -1,0 +1,132 @@
+[
+ 
+    {
+           "action": {
+               "type": "css-display-none",
+               "selector": "div[class=\"b-bnr\"]"
+     },
+            "trigger": {
+                  "url-filter": "https?://(www.)?wi-fi.ru"
+              }
+     },
+     {
+            "action": {
+                "type": "css-display-none",
+                "selector": "div[class=\"b-banner-full\"]"
+      },
+            "trigger": {
+                 "url-filter": "https?://(www.)?wi-fi.ru"
+               }
+      },
+     {
+           "action": {
+                  "type": "css-display-none",
+                  "selector": "div[class=\"b-banner-middle\"]"
+              },
+          "trigger": {
+                   "url-filter": "https?://(www.)?wi-fi.ru"
+                 }
+     },
+
+     {
+              "action": {
+                     "type": "block"
+ 
+             },
+           "trigger": {
+                   "url-filter": "https?://(www.)?wi-fi.ru",
+                   "resource-type": ["script"],
+                    "load-type": ["third-party"]
+            }
+    },
+
+   {
+              "action": {
+                    "type": "css-display-none",
+                    "selector": "#fullscreenBanner"
+               },
+                    "trigger": {
+                    "url-filter": ".*"
+               }
+    },
+    {
+             "action": {
+                   "type": "css-display-none",
+                   "selector": "div[class=\"yandexRTB\"]"
+              },
+             "trigger": {
+                    "url-filter": ".*"
+            }
+     },
+     {
+             "action": {
+                      "type": "block"
+ 
+              },
+             "trigger": {
+                     "url-filter": "https?://(www.)?login.wi-fi.ru",
+                     "resource-type": ["script"],
+                     "load-type": ["third-party"]
+             }
+    },
+    {
+             "action": {
+                     "type": "css-display-none",
+                     "selector": "div[class=\"b-banner-full\"]"
+               },
+                     "trigger": {
+                     "url-filter": "https?://(www.)?login.wi-fi.ru"
+               }
+ },
+     {
+                        "action": {
+                            "type":     "block",
+                            "selector": "div[class=\"vb\"]"
+           },
+                         "trigger": {
+                             "url-filter": "https?://(www.)?static0.wi-fi.ru/static/000/ios/index.html"
+ }
+
+ },
+ 
+ {
+         "action": {
+               "type":     "css-display-none",
+               "selector":  "#video-b"
+      },
+        "trigger": {
+        "url-filter": ".*"
+    }
+ 
+ },
+ {
+       "action": {
+            "type": "css-display-none",
+            "selector": "#branding"
+ },
+      "trigger": {
+      "url-filter": "https?://(www.)?login.wi-fi.ru"
+ }
+ },
+ {
+ "action": {
+ "type": "css-display-none",
+ "selector": "#AdFox_banner_0"
+ },
+ "trigger": {
+ "url-filter": "https?://(www.)?login.wi-fi.ru"
+ }
+ }
+
+
+
+
+
+
+
+ 
+
+
+
+
+]

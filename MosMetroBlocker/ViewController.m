@@ -16,12 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.shimeeringView.shimmering = true;
+    self.shimeeringView.contentView = self.shimmeringLabel;
+    //shimmer
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)showTips:(id)sender {
+    [self performSegueWithIdentifier:@"showTips" sender:self];
 }
 
 @end
