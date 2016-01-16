@@ -116,7 +116,17 @@
  "trigger": {
  "url-filter": "https?://(www.)?login.wi-fi.ru"
  }
+ },
+ {
+ "action": {
+ "type": "css-display-none",
+ "selector": "#loader"
+ },
+ "trigger": {
+ "url-filter": "https?://(www.)?login.wi-fi.ru"
  }
+ }
+
 
 
 
