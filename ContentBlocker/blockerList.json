@@ -28,18 +28,7 @@
                  }
      },
 
-     {
-              "action": {
-                     "type": "block"
  
-             },
-           "trigger": {
-                   "url-filter": "https?://(www.)?wi-fi.ru",
-                   "resource-type": ["script"],
-                    "load-type": ["third-party"]
-            }
-    },
-
    {
               "action": {
                     "type": "css-display-none",
@@ -58,17 +47,7 @@
                     "url-filter": ".*"
             }
      },
-     {
-             "action": {
-                      "type": "block"
  
-              },
-             "trigger": {
-                     "url-filter": "https?://(www.)?login.wi-fi.ru",
-                     "resource-type": ["script"],
-                     "load-type": ["third-party"]
-             }
-    },
     {
              "action": {
                      "type": "css-display-none",
@@ -78,16 +57,7 @@
                      "url-filter": "https?://(www.)?login.wi-fi.ru"
                }
  },
-     {
-                        "action": {
-                            "type":     "block",
-                            "selector": "div[class=\"vb\"]"
-           },
-                         "trigger": {
-                             "url-filter": "https?://(www.)?static0.wi-fi.ru/static/000/ios/index.html"
- }
-
- },
+ 
  
  {
          "action": {
