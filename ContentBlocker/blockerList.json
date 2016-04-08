@@ -95,6 +95,25 @@
  "trigger": {
  "url-filter": "https?://(www.)?login.wi-fi.ru"
  }
+ },
+ {
+ "action": {
+ "type": "css-display-none",
+ "selector": "#topBanner"
+ },
+ "trigger": {
+ "url-filter": "https?://(www.)?login.wi-fi.ru"
+ }
+ },
+ {
+ "action": {
+ "type": "block",
+ "resource-type": ["script"],
+ "load-type": ["third-party"]
+ },
+ "trigger": {
+ "url-filter": "https?://(www.)?wi-fi.ru"
+ }
  }
 
 

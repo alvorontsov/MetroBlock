@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -31,9 +31,9 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7AI-dQ-cgg" customClass="FBShimmeringView">
                                 <rect key="frame" x="20" y="270" width="335" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Включите блокировщик в Настройки–&gt;Safari–&gt;Правила блокирования контента" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-GQ-VbH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Включите блокировщик в Настройки–&gt;Safari–&gt;Правила блокирования контента. Отключите все другие блокировщики рекламы!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-GQ-VbH">
                                         <rect key="frame" x="8" y="8" width="319" height="112"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -47,38 +47,14 @@
                                     <constraint firstItem="7T0-GQ-VbH" firstAttribute="top" secondItem="7AI-dQ-cgg" secondAttribute="top" constant="8" id="xyh-WJ-HLq"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Поддержать проект (BTC):" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQr-ea-Ztl">
-                                <rect key="frame" x="20" y="406" width="335" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="x2d-G1-g2t"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="1G1BXUCbkVhYjwAhrSRWid4FqJTa5fTnRE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xOH-Mf-0uL">
-                                <rect key="frame" x="20" y="450" width="335" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="pBT-gY-Iyu"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="wQr-ea-Ztl" secondAttribute="trailing" constant="20" id="73b-AP-Uf6"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qme-S7-msc" secondAttribute="bottom" constant="20" id="A06-or-Dl5"/>
                             <constraint firstItem="7AI-dQ-cgg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AHg-1n-rR8"/>
-                            <constraint firstItem="xOH-Mf-0uL" firstAttribute="top" secondItem="wQr-ea-Ztl" secondAttribute="bottom" constant="8" id="FUE-V5-SjH"/>
                             <constraint firstItem="Qme-S7-msc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FdV-hV-GiM"/>
-                            <constraint firstItem="wQr-ea-Ztl" firstAttribute="top" secondItem="7AI-dQ-cgg" secondAttribute="bottom" constant="8" id="JaZ-QX-L0a"/>
-                            <constraint firstItem="wQr-ea-Ztl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Js5-bc-QHD"/>
                             <constraint firstItem="7AI-dQ-cgg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="To5-RY-nzt"/>
                             <constraint firstItem="7AI-dQ-cgg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cU3-SC-0BY"/>
-                            <constraint firstAttribute="trailing" secondItem="xOH-Mf-0uL" secondAttribute="trailing" constant="20" id="pDa-5k-Zf9"/>
-                            <constraint firstItem="xOH-Mf-0uL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="tSw-jk-NdL"/>
                             <constraint firstItem="7AI-dQ-cgg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v0i-IW-Qg1"/>
                             <constraint firstItem="Qme-S7-msc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wDa-Oo-TUS"/>
                         </constraints>
